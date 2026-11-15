@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="410" viewBox="0 0 1100 410" role="img" aria-label="Pranav MK — AI developer and automation builder, with floating robot, glowing stars and orbiting planet">
+<defs>
+ <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#080d1b"/><stop offset=".55" stop-color="#111b38"/><stop offset="1" stop-color="#1c1541"/></linearGradient>
+ <linearGradient id="name" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#ffffff"/><stop offset=".5" stop-color="#a5d8ff"/><stop offset="1" stop-color="#c9a7ff"/></linearGradient>
+ <linearGradient id="bot" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#69e6ff"/><stop offset="1" stop-color="#9575ff"/></linearGradient>
+ <radialGradient id="orb"><stop stop-color="#98efff" stop-opacity=".6"/><stop offset="1" stop-color="#98efff" stop-opacity="0"/></radialGradient>
+ <filter id="glow"><feGaussianBlur stdDeviation="7"/></filter>
+ <pattern id="grid" width="34" height="34" patternUnits="userSpaceOnUse"><path d="M34 0H0V34" fill="none" stroke="#7182b7" stroke-opacity=".13"/></pattern>
+</defs>
+<rect width="1100" height="410" rx="22" fill="url(#bg)"/>
+<rect width="1100" height="410" rx="22" fill="url(#grid)"/>
+<ellipse cx="920" cy="192" rx="230" ry="200" fill="url(#orb)" opacity=".48"/>
+<circle cx="930" cy="188" r="139" stroke="#99a5ff" stroke-opacity=".18" fill="none" stroke-dasharray="5 10"/>
+<circle cx="930" cy="188" r="185" stroke="#80e6ff" stroke-opacity=".14" fill="none" stroke-dasharray="2 11"/>
+<g fill="#9deeff">
+<circle cx="70" cy="54" r="2"><animate attributeName="opacity" values=".2;1;.2" dur="3s" repeatCount="indefinite"/></circle>
+<circle cx="535" cy="71" r="3"><animate attributeName="opacity" values="1;.15;1" dur="4s" repeatCount="indefinite"/></circle>
+<circle cx="732" cy="54" r="2"/><circle cx="1042" cy="82" r="3"><animate attributeName="opacity" values=".2;1;.2" dur="2.6s" repeatCount="indefinite"/></circle>
+<circle cx="690" cy="327" r="2"/><circle cx="1010" cy="348" r="2"/>
+</g>
+<g transform="translate(850 106)">
+ <animateTransform attributeName="transform" type="translate" values="850 106;850 88;850 106" dur="5s" repeatCount="indefinite"/>
+ <ellipse cx="77" cy="184" rx="74" ry="12" fill="#4d6ecb" opacity=".16" filter="url(#glow)"/>
+ <path d="M45 128L20 145L37 159L58 147M122 128L150 145L132 158L109 148" fill="#766cf6" stroke="#b9bdff" stroke-width="3" stroke-linejoin="round"/>
+ <rect x="34" y="43" width="94" height="99" rx="29" fill="#7c7cfb" stroke="#b9c6ff" stroke-width="4"/>
+ <rect x="23" y="0" width="116" height="91" rx="26" fill="url(#bot)" stroke="#d7f5ff" stroke-width="5"/>
+ <rect x="37" y="20" width="89" height="47" rx="18" fill="#0c1b39"/>
+ <ellipse cx="60" cy="44" rx="7" ry="10" fill="#7ff4ff"><animate attributeName="ry" values="10;10;2;10;10" dur="5s" repeatCount="indefinite"/></ellipse>
+ <ellipse cx="103" cy="44" rx="7" ry="10" fill="#7ff4ff"><animate attributeName="ry" values="10;10;2;10;10" dur="5s" repeatCount="indefinite"/></ellipse>
+ <path d="M71 57Q82 65 93 57" stroke="#7ff4ff" stroke-width="3" fill="none" stroke-linecap="round"/>
+ <path d="M81 -3V-20" stroke="#a5dfff" stroke-width="4"/><circle cx="81" cy="-25" r="7" fill="#8ff5ff"/>
+ <circle cx="80" cy="114" r="12" fill="#0d1c40" stroke="#bdeaff" stroke-width="2"/>
+ <path d="M76 114h8m-4-4v8" stroke="#9cf9ff" stroke-width="2"/>
+</g>
+<g transform="translate(720 290)">
+ <animateTransform attributeName="transform" type="translate" values="720 290;720 274;720 290" dur="7s" repeatCount="indefinite"/>
+ <circle cx="0" cy="0" r="32" fill="#8d65ee" stroke="#c8adff" stroke-width="2"/>
+ <ellipse rx="60" ry="14" transform="rotate(-23)" fill="none" stroke="#85e4ff" stroke-width="5"/>
+ <circle cx="-10" cy="-11" r="10" fill="#af8bff" opacity=".65"/>
+</g>
+<g transform="translate(1030 270)">
+ <animateTransform attributeName="transform" type="translate" values="1030 270;1030 251;1030 270" dur="6s" repeatCount="indefinite"/>
+ <rect x="-27" y="-23" width="54" height="46" rx="10" fill="#152b56" stroke="#6fe6ff" stroke-width="2"/>
+ <path d="m-14 -3 10 -10m-10 10 10 10m18 -20 -10 20" stroke="#8ef0ff" stroke-width="3" fill="none" stroke-linecap="round"/>
+</g>
+<rect x="55" y="52" width="170" height="32" rx="16" fill="#1d3053" stroke="#4677a7" stroke-opacity=".7"/>
+<circle cx="72" cy="68" r="4" fill="#58f8c8"/><text x="87" y="73" font-family="Arial,sans-serif" font-size="13" font-weight="700" fill="#9bdcf4" letter-spacing="2">HELLO, WORLD</text>
+<text x="52" y="183" font-family="Arial,Helvetica,sans-serif" font-size="74" font-weight="800" letter-spacing="-3" fill="url(#name)">PRANAV MK</text>
+<rect x="57" y="204" width="255" height="4" rx="2" fill="#70dfff"><animate attributeName="width" values="60;255;255;60" dur="8s" repeatCount="indefinite"/></rect>
+<text x="57" y="253" font-family="Arial,sans-serif" font-size="24" font-weight="600" fill="#e4e8ff">AI  /  WEB  /  AUTOMATION</text>
+<text x="57" y="291" font-family="Arial,sans-serif" font-size="18" fill="#9bb1d3">Building useful tools. Making ideas real.</text>
+<text x="57" y="353" font-family="monospace" font-size="15" fill="#7ee8d6">&gt; learning • building • sharing</text>
+</svg>
